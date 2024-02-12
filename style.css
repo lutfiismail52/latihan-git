@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    background-color: #121212;
+}
+
+/* Display Styles */
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Text Styles */
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Button Styles */
+.btn-blue {
+    background-color: #0080ff;
+    color: white;
+}
+
+.btn-red {
+    background-color: #ff1212;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #ffff11;
+    color: black;
+}
+
+.btn-green {
+    background-color: teal;
+    color: white;
+}
+
+.text-grey {
+    color: #ddd;
+}
+
+.btn {
+    padding: 10px;
+    margin: 12px;
+    border-radius: 10%;
+}
+
+
+
+.btn:hover {
+    opacity: 80%;
+}
